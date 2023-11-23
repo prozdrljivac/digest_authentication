@@ -15,7 +15,7 @@ When user enters username and password, they are hashed using MD5 hashing method
 
 As long as the browser session is active, every request will contain Authentication Header with the value of `Digest username="", realm="", nonce="", uri="", response=""` which will allow the request to access the resources of the server.
 
-### What are Pros and Cons of using Basic Authentication?
+### What are Pros and Cons of using Digest Authentication?
 
 This Authentication method is easy to implement, supported by major browsers and since credentials are hashed it is somewhat secure.
 
