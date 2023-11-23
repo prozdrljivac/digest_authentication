@@ -1,0 +1,18 @@
+{
+  "eslint.options": {
+      "extensions": [".js"]
+  },
+  "eslint.validate": ["javascript"],
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+      "source.fixAll": true,
+      "source.fixAll.eslint": true,
+      "source.organizeImports": true
+  },
+  "editor.quickSuggestions": {
+      "strings": "on"
+  },
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.insertSpaces": true,
+  "editor.tabSize": 2
+}
