@@ -17,6 +17,10 @@ As long as the browser session is active, every request will contain Authenticat
 
 ### What are Pros and Cons of using Basic Authentication?
 
+This Authentication method is easy to implement, supported by major browsers and since credentials are hashed it is somewhat secure.
+
+Downside of using this method is sending Credentials with every request, passwords are not secure on the server since bcrypt cannot be used and user needs to close the browser to be logged out.
+
 ## Setup
 
 Install Prettier
